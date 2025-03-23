@@ -54,7 +54,7 @@
                     android:textSize="@dimen/empty_primary_hint1_size" />
             </RelativeLayout>
 
-            <com.brcorner.drag_sort_listview_lib.DragSortListView
+            <com.wangrunsheng.snote.drag.DragSortListView
                 android:id="@+id/listview_notes"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -69,7 +69,7 @@
                 dslv:drag_scroll_start="0.25"
                 dslv:max_drag_scroll_speed="0.1" />
 
-            <com.brcorner.dnote.android.view.UpListView
+            <com.wangrunsheng.snote.view.UpListView
                 android:id="@+id/listview_clip"
                 android:layout_width="@dimen/list_clip_width"
                 android:layout_height="fill_parent"
@@ -136,7 +136,7 @@
                                 android:textSize="@dimen/detail_text_size"
                                 android:visibility="gone" />
 
-                            <com.brcorner.dnote.android.view.LinkTextView
+                            <com.wangrunsheng.snote.view.LinkTextView
                                 android:id="@+id/edittext_mask"
                                 android:layout_width="fill_parent"
                                 android:layout_height="wrap_content"
@@ -172,19 +172,22 @@
                             android:layout_width="fill_parent"
                             android:layout_height="@dimen/top_length"
                             android:layout_alignParentTop="true"
+                            android:layout_marginEnd="@dimen/top_to_right"
                             android:layout_marginRight="@dimen/top_to_right"
                             android:background="@drawable/note_paper_top"
                             android:focusable="true"
                             android:focusableInTouchMode="true"
                             android:gravity="center_vertical"
                             android:orientation="horizontal"
-                            android:paddingLeft="38.0dip" >
+                            android:paddingLeft="38.0dip"
+                            android:paddingStart="38.0dip">
 
                             <TextView
                                 android:id="@+id/textview_call_info"
                                 android:layout_width="wrap_content"
                                 android:layout_height="fill_parent"
                                 android:layout_alignParentLeft="true"
+                                android:layout_alignParentStart="true"
                                 android:ellipsize="end"
                                 android:gravity="center_vertical"
                                 android:maxWidth="280.0dip"

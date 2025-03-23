@@ -37,7 +37,7 @@
                     android:background="@drawable/preview_bottom"
                     android:orientation="vertical" >
 
-                    <com.brcorner.dnote.android.view.TwoSideAlignTextView
+                    <com.wangrunsheng.snote.view.TwoSideAlignTextView
                         android:id="@+id/content"
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"

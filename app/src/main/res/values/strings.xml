@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Smartisan Notes</string>
+    <string name="app_name">S Notes</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_notes">NotesActivity</string>
     <string name="title">Notes</string>
@@ -80,19 +80,19 @@ You can post your notes to Sina Weibo, with no 140-character limit. If your sing
     <string name="null_note_summary">Tap the top right hand corner to write a note</string>
     <string name="error_title">Can not generate a picture</string>
     <string name="error_message">This note contains too many characters to generate a picture.</string>
-    <string name="facebook">Facebook</string>
+    <string name="facebook" translatable="false">Facebook</string>
     <string name="weibo">Weibo</string>
     <string name="we_chat">WeChat</string>
-    <string name="twitter">Twitter</string>
+    <string name="twitter" translatable="false">Twitter</string>
     <string name="qzone">Qzone</string>
     <string name="we_chat_timeline">Moments</string>
-    <string name="support_email">support@smartisan.cn</string>
-    <string name="smartisan">www.smartisan.cn</string>
-    <string name="copyrights">Copyrights 2013, Smartisan Tech (Beijing) Co., Ltd. All Rights Reserved.</string>
-    <string name="share_msg">Just installed Smartisan Notes V1.2 for Android, download link:http://bbs.smartisan.cn/forum.php?mod=viewthread&amp;tid=25028&amp;extra=page%3D1</string>
+    <string name="support_email" translatable="false">hi@wangrunsheng.com</string>
+    <string name="wangrunsheng" translatable="false">www.wangrunsheng.cn</string>
+    <string name="copyrights" translatable="false">Copyrights, All Rights Reserved.</string>
+    <string name="share_msg">Just installed S Notes for Android</string>
     <string name="update">Update</string>
     <string name="check_update">Check update</string>
-    <string name="check_update_message">Detected a new version of the smartisan notes (version %s),click to upgrade.</string>
+    <string name="check_update_message">Detected a new version of the S notes (version %s),click to upgrade.</string>
     <string name="update_download">Download</string>
     <string name="update_cancel">Cancel</string>
     <string name="dialog_title_cancel">Cancel</string>

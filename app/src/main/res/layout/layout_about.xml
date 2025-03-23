@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <View
         android:id="@+id/about_bg"
@@ -19,7 +20,7 @@
         android:layout_height="480.0dip"
         android:layout_gravity="center"
         android:visibility="invisible"
-         >
+        tools:visibility="visible">
 
         <RelativeLayout
             android:layout_width="fill_parent"
@@ -31,6 +32,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="35.5dip"
+                android:visibility="invisible"
                 android:src="@mipmap/logo" />
 
             <View
@@ -99,9 +101,9 @@
                     android:layout_below="@id/tv_email"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="19.0dip"
-                    android:text="@string/smartisan"
+                    android:text="@string/wangrunsheng"
                     android:textColor="#ffa3a3a3"
-                    android:textSize="9.0dip" />
+                    android:textSize="11sp" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -111,7 +113,7 @@
                     android:layout_marginBottom="32.0dip"
                     android:text="@string/copyrights"
                     android:textColor="#ffa3a3a3"
-                    android:textSize="6.0dip" />
+                    android:textSize="11sp" />
             </RelativeLayout>
 
             <TableLayout
